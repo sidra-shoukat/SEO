@@ -8,12 +8,13 @@ schema.type = "application/ld+json";
 schema.text = JSON.stringify({
   "@context": "https://schema.org/",
   "@type": "Recipe",
+  "url": "https://sidra-shoukat.github.io/restaurant-website/",
   "name": "Pakistani Grilled Chicken",
   "author": {
     "@type": "Person",
     "name": "Sidra"
   },
-  "url": "https://github.com/sidra-shoukat/SEO",
+  "url": "https://github.com/sidra-shoukat/restaurant-website",
   "datePublished": "2025-09-22",
   "description": "Juicy and smoky Pakistani-style grilled chicken marinated with spices and herbs.",
   "prepTime": "PT15M",
@@ -71,4 +72,5 @@ schema.text = JSON.stringify({
 
 // Append schema into <head>
 document.head.appendChild(schema);
+
 
