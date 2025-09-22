@@ -13,7 +13,7 @@ schema.text = JSON.stringify({
     "@type": "Person",
     "name": "Sidra"
   },
-  "url": "https://yourdomain.com/grilled-chicken",
+  "url": "https://github.com/sidra-shoukat/SEO",
   "datePublished": "2025-09-22",
   "description": "Juicy and smoky Pakistani-style grilled chicken marinated with spices and herbs.",
   "prepTime": "PT15M",
@@ -71,3 +71,4 @@ schema.text = JSON.stringify({
 
 // Append schema into <head>
 document.head.appendChild(schema);
+
